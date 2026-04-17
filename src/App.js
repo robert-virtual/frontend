@@ -67,7 +67,7 @@ function App() {
           <button onClick={() => abrirCamara()}>Abrir camara</button>
           <video ref={videoRef} id="cameraPreview" style={{ width: '100%', marginTop: '10px' }} >
           </video>
-          <h1>Lector de QR</h1>
+          <h2>Lector de QR</h2>
           {scanResult ? (
             <div>Éxito: <a href={scanResult}>{scanResult}</a></div>
           ) : (
