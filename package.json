@@ -1,6 +1,7 @@
 {
   "name": "spa-react",
   "version": "0.1.0",
+  "homepage": "https://robert-virtual.github.io/frontend",
   "private": true,
   "dependencies": {
     "html5-qrcode": "^2.3.8",
